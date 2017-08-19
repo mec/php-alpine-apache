@@ -1,6 +1,6 @@
 # About this Repo
 
-This is the git repo of my Docker image for php.
+This is the git repo of my Docker image for php. See the [https://hub.docker.com/r/mecrawlings/php/](Docker Hub Page) for the full info.
 
 ## Docker run
 
@@ -11,6 +11,6 @@ This is the git repo of my Docker image for php.
 ## Docker file
 
 ``
-FROM mecrawlings/php:7.1-apache
+FROM mecrawlings/php:7.1-apache  
 COPY app/ /var/www/localhost/htdocs/
 ``
