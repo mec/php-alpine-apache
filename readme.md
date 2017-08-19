@@ -10,5 +10,5 @@ This is the git repo of my Docker image for php. See the [Docker Hub Page](https
 
 ## Docker file
 
-``` FROM mecrawlings/php:7.1-apache  
-COPY app/ /var/www/localhost/htdocs/ ```
+```FROM mecrawlings/php:7.1-apache  
+COPY /app/ /var/www/localhost/htdocs/```
