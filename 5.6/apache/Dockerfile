@@ -6,9 +6,8 @@ RUN apk add --no-cache \
   apache2 \
   php5-apache2 \
   php5-gd \
-  php7-redis \
-  php7-mysqli \
-  php7-zlib
+  php5-mysqli \
+  php5-zlib
 
 # copy over some basic config
 COPY localhost.conf /etc/apache2/conf.d/localhost.conf
