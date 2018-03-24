@@ -10,7 +10,7 @@ RUN apk add --no-cache \
   php7-redis \
   php7-mysqli \
   php7-zlib \
-  pgp7-mbstring
+  php7-mbstring
 
 # copy over some basic config
 COPY localhost.conf /etc/apache2/conf.d/localhost.conf
