@@ -9,7 +9,8 @@ RUN apk add --no-cache \
   php7-simplexml \
   php7-redis \
   php7-mysqli \
-  php7-zlib
+  php7-zlib \
+  php7-mbstring
 
 EXPOSE 9000
 
